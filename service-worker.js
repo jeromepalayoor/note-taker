@@ -1,13 +1,13 @@
 const CACHE_NAME = 'note-taking-app-cache-v1';
 const urlsToCache = [
-  '/',
-  '/styles.css',
-  '/script.js',
-  '/icons/icon-72x72.png',
-  '/icons/icon-96x96.png',
-  '/icons/icon-144x144.png',
-  '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png'
+  'index.html',
+  'styles.css',
+  'script.js',
+  'icons/icon-72x72.png',
+  'icons/icon-96x96.png',
+  'icons/icon-144x144.png',
+  'icons/icon-192x192.png',
+  'icons/icon-512x512.png'
 ];
 
 self.addEventListener('install', event => {
